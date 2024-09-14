@@ -5,7 +5,7 @@
 3) sudo tar -xvf wireshark-4.4.0.tar.xz
 4) cd wireshark-4.4.0
 5) sudo apt update -y
-6) sudo apt install build-essential cmake libpcap-dev libglib2.0-dev libgcrypt20-dev bison flex qtbase5-dev qtmultimedia5-dev libqt5svg5-dev qtmultimedia5-dev-tools libcap-dev -y
+6) sudo apt install build-essential cmake qt6-base-dev qt6-tools-dev qt6-tools-dev-tools libsystemd-dev libpcap-dev libglib2.0-dev libgcrypt20-dev bison flex qtbase5-dev qtmultimedia5-dev libqt5svg5-dev libcap-dev libc-ares-dev -y
 7) sudo mkdir build
 8) cd build
 9) sudo cmake -DCMAKE_INSTALL_PREFIX=/opt/wireshark ..
