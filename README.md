@@ -1,2 +1,2 @@
-# networking
-Collection of Net Simulation and Diagrams
+# Diagrams
+Collection of Network Simulation & Block Diagrams
